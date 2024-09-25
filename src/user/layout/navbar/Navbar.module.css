@@ -1,0 +1,72 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
+  background-color: #fefefe;
+}
+.elements {
+  height: 100%;
+  margin: auto;
+  width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.links ul {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.links .link {
+  font-size: 15px;
+  font-weight: 600;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.searchInp {
+  padding: 10px;
+  border: transparent;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.none {
+  display: none;
+}
+.open {
+  display: block;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}

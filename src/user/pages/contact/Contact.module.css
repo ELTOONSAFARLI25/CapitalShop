@@ -1,0 +1,58 @@
+.container {
+  width: 1300px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.form_inputs {
+  /* margin-top: 50px; */
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  gap: 20px;
+}
+.name,
+.email {
+  width: 370px;
+}
+.message {
+  height: 150px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  outline: none;
+}
+input {
+  height: 30px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+.send_btn {
+  padding: 15px 30px;
+  border: 1px solid red;
+  background-color: transparent;
+  color: red;
+  margin-top: 30px;
+  transition-duration: 0.2s;
+  width: 100px;
+}
+.send_btn:hover {
+  background-color: red;
+  color: white;
+}
+.contact_details {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.contact_details p {
+  font-size: 15px;
+}
+.contact_details span {
+  font-size: 13px;
+  color: gray;
+}

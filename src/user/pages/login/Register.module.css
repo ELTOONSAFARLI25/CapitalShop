@@ -1,0 +1,64 @@
+.container_login {
+  width: 700px;
+  height: 700px;
+  margin: auto;
+  border-radius: 9px;
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+}
+.login_head {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login_inputs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  position: relative;
+  margin: auto;
+  gap: 20px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.input {
+  padding: 20px;
+  outline: none;
+  border: 1px solid transparent;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 500px;
+}
+.links {
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  bottom: 40px;
+  left: 65px;
+}
+.foot button {
+  padding: 20px 30px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  transition: 0.2s;
+}
+.foot button:hover {
+  background-color: transparent;
+  color: red;
+}

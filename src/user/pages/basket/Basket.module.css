@@ -1,0 +1,46 @@
+.container_basket {
+  width: 1300px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: white;
+  border-radius: 12px;
+}
+table,
+th,
+td {
+  /* border: 1px solid black;
+  border-collapse: collapse; */
+  text-align: start;
+  padding: 15px;
+  height: 70px;
+}
+
+table {
+  width: 1300px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.counter button {
+  padding: 7px 10px;
+  background-color: #fefefe;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.buttons button {
+  padding: 15px 20px;
+  background-color: red;
+  color: white;
+  border-radius: 40px;
+  transition: 0.2s;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.buttons button:hover {
+  background-color: rgb(118, 2, 2);
+}

@@ -1,0 +1,56 @@
+.container {
+  width: 1300px;
+  margin: auto;
+  margin-top: 50px;
+}
+table,
+td,
+th {
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+}
+thead {
+  background-color: rgb(120, 172, 74);
+  font-size: 16px;
+}
+.delete_btn,
+.edit_btn {
+  padding: 10px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 9px;
+  color: white;
+  transition: 0.2s;
+}
+.delete_btn {
+  background-color: red;
+}
+.edit_btn {
+  background-color: green;
+}
+.delete_btn:active {
+  opacity: 0.7;
+}
+.edit_btn:active {
+  opacity: 0.7;
+}
+.edit_box {
+  border: 2px solid white;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 130px;
+  left: 650px;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  gap: 10px;
+  margin-top: 20px;
+}
